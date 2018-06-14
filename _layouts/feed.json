@@ -1,0 +1,22 @@
+---
+---
+
+{%- assign title_suffix = "" -%}
+{%- if page.title != "" -%}
+{%- assign title_suffix = " | " | append: page.title -%}
+{%- endif -%}
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": {{ site.title | append: title_suffix | jsonify }},
+  "home_page_url": "{{ page.url | absolute_url | split: '/' | pop | join: '/' }}",
+  "feed_url": "{{ page.url | absolute_url }}",
+  "description": {{ site.description | jsonify }},
+  {% if site.author -%}
+  "author": {
+    "name": {{ site.author | jsonify }}
+  },
+  {%- endif %}
+  "items": [
+    {{ content }}
+  ]
+}

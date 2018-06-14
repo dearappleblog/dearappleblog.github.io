@@ -1,0 +1,6 @@
+---
+title: Microblog posts
+permalink: /microblog/feed.xml
+---
+
+{%- include feed.xml posts=site.categories.microblog -%}

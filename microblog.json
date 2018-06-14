@@ -1,0 +1,8 @@
+---
+layout: feed
+title: Microblog posts
+permalink: /microblog/feed.json
+---
+
+{%- assign posts = site.categories.microblog -%}
+{%- include posts.json -%}

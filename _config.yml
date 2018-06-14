@@ -1,0 +1,48 @@
+title : Dear Apple,
+name  : DA
+author: DA
+email : "dearapple@dearapple.com"
+author.email : "dearapple@dearapple.com"
+
+description: >-	      # this means to ignore newlines until "baseurl:"
+  Open letters to Apple, posts on technology, business, and random topics.
+
+baseurl: ""			# the subpath of your site, e.g. /blog
+url    : "http://dearapple.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+excerpt_separator: none
+show_excerpts    : true
+permalink	 : :year/:month/:day/:title
+
+defaults:
+  -
+    scope:
+      path    : "_posts/blog"
+    values:
+      layout  : post
+      category: blog
+  -
+    scope:
+      path    : "_posts/microblog"
+    values:
+      layout  : post
+      title   : ""
+      category: microblog
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

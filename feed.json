@@ -1,0 +1,6 @@
+---
+layout: feed
+title: All posts
+---
+
+{%- include posts.json posts=site.posts -%}

@@ -1,0 +1,6 @@
+---
+title: Blog posts
+permalink: /blog/feed.xml
+---
+
+{%- include feed.xml posts=site.categories.blog -%}
