@@ -1,0 +1,1 @@
+iOS 12 performance make old versions seem broken.
