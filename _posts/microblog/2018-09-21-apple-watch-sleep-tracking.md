@@ -1,0 +1,1 @@
+Apple Watch Series 4: can generate an ECG --- can't track sleep.
