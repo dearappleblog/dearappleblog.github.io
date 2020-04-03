@@ -3,11 +3,11 @@
   {%- for post in include.posts -%}
   <li>
     {%- if post.title != "" -%}
-    <h3>
+    <h1>
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
       </a>
-    </h3>
+    </h1>
     {%- endif -%}
 
     {%- if site.show_excerpts -%}
