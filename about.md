@@ -11,4 +11,4 @@ Subscribe to [my feeds]({{ '/feeds' | relative_url }}).
 
 [Send an email]({{ 'mailto:' | append: site.email }}) for comments.
 
-[Support my work on Patreon!](http://patreon.com/dearapple)
+[Support my work on Patreon!](https://www.patreon.com/bePatron?u=11733494)
