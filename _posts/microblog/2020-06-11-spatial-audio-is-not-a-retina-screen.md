@@ -1,0 +1,1 @@
+Seeing a retina screen for the first time is so impressive that it ruins the experience of using regular screens. Spatial audio is better than stereo, but it is not impressive. I wonder if stereo would sound bland after getting used to spatial audio.
